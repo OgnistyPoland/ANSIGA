@@ -206,7 +206,7 @@ function list(path) {
 <p style="fontsize: 20px"><center>Ostatnia aktualizacja: 05.03.2021</center></p>
   <div class="container"><br>
   <div class="card">
-  <h5 class="card-header" id="folderne"><input type="text" id="folderne" class="form-control" placeholder="Bieżąca ścieżka: Strona główna" value="" readonly><script>document.getElementById("folderne").innerHTML='Bieżący folder: '+decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')-1))).replace('/','').replace('/','');</script>
+  <h5 class="card-header" id="folderne"><input type="text" id="folderne" class="form-control" placeholder="Bieżąca ścieżka: Strona główna" value="" readonly><script>document.getElementById("folderne").innerHTML='Bieżący katalog: '+decodeURI(this.window.location.href.substring(window.location.href.lastIndexOf('/',window.location.href.lastIndexOf('/')-1))).replace('/','').replace('/','');</script>
   </h5>
   <div id="list" class="list-group">
   </div>
